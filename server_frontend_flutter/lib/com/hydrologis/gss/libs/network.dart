@@ -426,7 +426,7 @@ class WebServerApi {
       // tms: false,
       maxZoom: 21,
       maxNativeZoom: 16,
-      urlTemplate: "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+      urlTemplate: "https://a.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png",
       tileProvider: NetworkNoRetryTileProvider(),
     );
   }
